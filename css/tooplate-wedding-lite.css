@@ -10,27 +10,27 @@ https://www.tooplate.com/view/2131-wedding-lite
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #f5f0f0;
-  --primary-color:                #D48C70;
-  --secondary-color:              #f1c522;
+  --white-color:                  #ffffff;
+  --primary-color:                #cf1d1d;
+  --secondary-color:              #f11e0a;
   --section-bg-color:             #f9f9f9;
   --custom-btn-bg-color:          #cb7575;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
-  --icon-color:                   #28856b;
+  --icon-color:                   #bd1717;
 
   --body-font-family:             'Source Sans Pro', sans-serif;
-  --title-font-family:            'Amatic SC', cursive;
+  --title-font-family:            'Source Sans Pro', sans-serif;
 
   --h1-font-size:                 72px;
   --h2-font-size:                 48px;
   --h3-font-size:                 36px;
-  --h4-font-size:                 32px;
+  --h4-font-size:                 24px;
   --h5-font-size:                 24px;
   --h6-font-size:                 22px;
   --p-font-size:                  20px;
-  --menu-font-size:               14px;
+  --menu-font-size:               16px;
   --copyright-font-size:          16px;
 
   --border-radius-large:          100px;
@@ -38,9 +38,11 @@ https://www.tooplate.com/view/2131-wedding-lite
   --border-radius-small:          10px;
 
   --font-weight-light:            300;
-  --font-weight-normal:           400;
+  --font-weight-normal:           600;
   --font-weight-medium:           500;
-  --font-weight-bold:             700;
+  --font-weight-bold:             300;
+
+
 }
 
 body {
@@ -305,11 +307,12 @@ strong {
 }
 
 .is-sticky .navbar {
-  background: var(--white-color);
+  background: #cb7575;
 }
 
 .navbar-brand {
   font-family: var(--title-font-family);
+  font-family: 'Alex Brush';
   font-size: var(--h4-font-size);
   font-weight: var(--font-weight-bold);
 }
@@ -412,19 +415,20 @@ strong {
   HERO              
 -----------------------------------------*/
 .hero-container {
-  background-color: #d9d8d6;
-  background-image: url('../images/couple-hugging-laughing-near-wall.png');
+  /*background-color: #d9d8d6;*/
+  background-image: url('../images/main_corsanelli.JPG');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: var(--border-radius-small);
   position: relative;
   overflow: hidden;
   padding: 50px;
-  height: calc(90vh - 98px);
+  height: calc(110vh - 98px);
 }
 
 .hero-container h2 {
   color: var(--custom-btn-bg-color);
+  background-color: #e9eaeb;
 }
 
 
@@ -454,6 +458,12 @@ strong {
 /*---------------------------------------
   THE WEDDING              
 -----------------------------------------*/
+#location{
+  width:100%;
+
+
+}
+
 .google-map {
   border-radius: var(--border-radius-small);
   display: block;
@@ -651,11 +661,11 @@ strong {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-image: url('../images/young-asian-pregnant-couple-using-laptop.jpeg');
+  background-image: url('../images/main_corsanelli.JPG');
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 150px;
-  padding-bottom: 150px;
+  padding-bottom: 600px;
   text-align: center;
   position: relative;
 }
@@ -783,7 +793,7 @@ strong {
   }
 
   .navbar {
-    background: var(--white-color);
+    background: #cb7575;
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
