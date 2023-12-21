@@ -25,7 +25,7 @@ https://www.tooplate.com/view/2131-wedding-lite
 
   --h1-font-size:                 72px;
   --h2-font-size:                 48px;
-  --h3-font-size:                 36px;
+  --h3-font-size:                 48px;
   --h4-font-size:                 24px;
   --h5-font-size:                 24px;
   --h6-font-size:                 22px;
@@ -420,7 +420,7 @@ strong {
   HERO              
 -----------------------------------------*/
 .hero-container {
-  background-color: FEF1EC;
+  background-color: #FEF1EC;
   /*background-image: url('../images/main_corsanelli.JPG');*/
   background-repeat: no-repeat;
   background-size: cover;
