@@ -10,18 +10,18 @@ https://www.tooplate.com/view/2131-wedding-lite
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #ffffff;
+  --white-color:                  #FEF1EC;
   --primary-color:                #cf1d1d;
   --secondary-color:              #f11e0a;
-  --section-bg-color:             #f9f9f9;
+  --section-bg-color:             #FEF1EC;
   --custom-btn-bg-color:          #cb7575;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
   --icon-color:                   #bd1717;
 
-  --body-font-family:             'Source Sans Pro', sans-serif;
-  --title-font-family:            'Source Sans Pro', sans-serif;
+  --body-font-family:             'Spectral', serif;
+  --title-font-family:            'Spectral', serif;
 
   --h1-font-size:                 72px;
   --h2-font-size:                 48px;
@@ -304,22 +304,24 @@ strong {
   left: 0;
   padding-top: 20px;
   padding-bottom: 20px;
+  background: #e98980;
 }
 
 .is-sticky .navbar {
-  background: #cb7575;
+  background: #e98980b7;
 }
 
 .navbar-brand {
   font-family: var(--title-font-family);
   font-family: 'Alex Brush';
-  font-size: var(--h4-font-size);
+  font-size: var(--h3-font-size);
   font-weight: var(--font-weight-bold);
 }
 
 .navbar-brand,
 .navbar-brand:hover {
-  color: var(--primary-color);
+  /*color: var(--primary-color);*/
+  color:#FEF1EC
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -331,7 +333,9 @@ strong {
 
 .navbar-nav .nav-link {
   display: inline-block;
-  color: var(--p-color);
+  /*color: var(--p-color);*/
+  color:#AE554F;
+
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-normal);
   text-transform: uppercase;
@@ -341,7 +345,8 @@ strong {
 
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link:hover {
-  color: var(--custom-btn-bg-color);
+  /* color: var(--custom-btn-bg-color);*/
+  color:#FEF1EC
 }
 
 .navbar-toggler {
@@ -415,20 +420,20 @@ strong {
   HERO              
 -----------------------------------------*/
 .hero-container {
-  /*background-color: #d9d8d6;*/
-  background-image: url('../images/main_corsanelli.JPG');
+  background-color: FEF1EC;
+  /*background-image: url('../images/main_corsanelli.JPG');*/
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: var(--border-radius-small);
+  /*border-radius: var(--border-radius-small);*/
   position: relative;
   overflow: hidden;
   padding: 50px;
-  height: calc(110vh - 98px);
+  height: calc(50vh - 50px);
 }
 
 .hero-container h2 {
   color: var(--custom-btn-bg-color);
-  background-color: #e9eaeb;
+  background-color: #FEF1EC;
 }
 
 
@@ -441,7 +446,7 @@ strong {
   display: inline-block;
   position: relative;
   overflow: hidden;
-  text-align: left;
+  text-align: center;
 }
 
 .save-the-date-title {
@@ -783,8 +788,8 @@ strong {
   }
 
   .section-padding {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    /*padding-top: 80px;
+    padding-bottom: 80px;*/
   }
 
   .custom-btn {
@@ -793,7 +798,7 @@ strong {
   }
 
   .navbar {
-    background: #cb7575;
+    /*background: #cb7575;*/
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -807,7 +812,7 @@ strong {
 
   .hero-container {
     padding: 40px;
-    min-height: 650px;
+    min-height: 350px;
   }
 
   .about-info-wrap {
