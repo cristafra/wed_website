@@ -23,7 +23,7 @@ async function sendForm() {
             'Access-Control-Allow-Origin':'*',
             'Access-Control-Allow-Methods':'POST',
         },
-        //mode:"no-cors"
+        mode:"cors"
         }).then((response) => 
             {console.log(response)});
         

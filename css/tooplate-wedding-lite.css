@@ -304,11 +304,11 @@ strong {
   left: 0;
   padding-top: 20px;
   padding-bottom: 20px;
-  background: #e98980;
+  background: #FB8B7F;
 }
 
 .is-sticky .navbar {
-  background: #e98980b7;
+  background: #fb8b7f9d;
 }
 
 .navbar-brand {
@@ -428,7 +428,7 @@ strong {
   background-size: cover;
   /*padding-top: 150px;
   padding-bottom: 600px;*/
-  background-position: left bottom;
+  background-position: 0% 50%;
   text-align: center;
   position: relative;
 
@@ -563,10 +563,13 @@ strong {
   RSVP              
 -----------------------------------------*/
 .rsvp-section {
-  background-image: url('../images/tre-cime.JPG');
+  background-image: url('../images/gallery/couple.jpg');
+
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  background-position: 100% 25% ;
+
+
 }
 
 .rsvp-form-wrap {
@@ -645,6 +648,7 @@ strong {
 .custom-form button[type="submit"]:hover::after {
   transform: translate(0);
 }
+
 
 
 /*---------------------------------------
