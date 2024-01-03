@@ -421,7 +421,16 @@ strong {
   SAVE THE DATE              
 -----------------------------------------*/
 #save-the-date{
-  background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+  background-image: url('../images/portogallo2.JPG');
+  padding: 5rem!important;
+  background-repeat: no-repeat;
+  /*background-size: 1500 500px;*/
+  background-size: cover;
+  /*padding-top: 150px;
+  padding-bottom: 600px;*/
+  background-position: left bottom;
+  text-align: center;
+  position: relative;
 
 }
 
