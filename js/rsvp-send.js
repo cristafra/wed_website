@@ -3,29 +3,30 @@
 async function sendForm() {
 
     console.log("ciao qui");
-    var data = {
-                    "name":document.getElementById("name").value,
-                    "phone":document.getElementById("phone").value,
-                    "email":document.getElementById("email").value,
-                    "guests":document.getElementById("guests").value,
-                    "names_companions":document.getElementById("names_companions").value,
-                    "food":document.getElementById("food").value,
-                    "message":document.getElementById("message").value,
-                }; // string or object
+    var data = JSON.stringify({
+                    name:document.getElementById("name").value,
+                    phone:document.getElementById("phone").value,
+                    email:document.getElementById("email").value,
+                    guests:document.getElementById("guests").value,
+                    names_companions:document.getElementById("names_companions").value,
+                    food:document.getElementById("food").value,
+                    message:document.getElementById("message").value,
+                }); // string or object
     console.log(data);
     try {
         const response = await fetch('https://script.google.com/macros/s/AKfycbz8PCIrZFjUxN2SU0D_-2gcLMilWYOXDhD5vLDZuBw4rFMuE8zfqBqQGRlXzr2CO0uh/exec'
         , {
         method: 'POST',
-        body: JSON.stringify(data),
+        body: data,
         headers: {
             'Content-Type': 'application/json',
             'Access-Control-Allow-Origin':'*',
             'Access-Control-Allow-Methods':'POST',
         },
-        mode:"no-cors"
-        });
-        console.log(response)
+        //mode:"no-cors"
+        }).then((response) => 
+            {console.log(response)});
+        
        // const result = await response.json()
     }
     catch(error)
