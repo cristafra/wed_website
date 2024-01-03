@@ -49,7 +49,7 @@ window.addEventListener("load", function() {
     })
     .then(() => {
       alert("Messaggio inviato correttamente! Grazie!");
-      location.reload();
+      window.top.location.reload();
     })
   });
 });
